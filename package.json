@@ -1,0 +1,25 @@
+{
+  "name": "qrcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "qr-code-cli": "tsx src/index.ts",
+    "generate": "tsx src/index.ts generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "qrcode": "^1.5.3",
+    "tslib": "^2.6.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.13.0",
+    "@types/qrcode": "^1.5.5",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
+  }
+}
